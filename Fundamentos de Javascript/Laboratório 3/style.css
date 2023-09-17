@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+div {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -2px;
+  right: 5px;
+  color: transparent;
+  text-shadow: 0 0 1px white;
+  font-size: medium;
+}
+
+.bordinha {
+    border: 2px blueviolet solid;
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink { 50% { border-color:#a36fc5 ; }  }
